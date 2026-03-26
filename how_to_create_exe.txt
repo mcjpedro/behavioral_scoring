@@ -1,0 +1,7 @@
+Change the directory to the .py file directory using the cd command
+
+Install the nuitka using pip
+
+Execute the follow line to generate the behavior_annotation software
+
+python -m nuitka --standalone --output-dir=behavior_annotation --windows-disable-console --enable-plugin=tk-inter --enable-plugin=numpy --enable-plugin=matplotlib --include-package=pandas --include-package=cv2 behavior_annotation.py
